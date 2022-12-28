@@ -44,4 +44,6 @@ style request fill:#0f0,color:#000
 style soft_exit fill:#c00,color:#fff
 style ex_normalchange fill:#c00,color:#fff
 
+click soft_lifecycle callback "Is the proposed technology nascent, preferred, supported or end of life"
+
 ```
