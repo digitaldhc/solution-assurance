@@ -49,7 +49,7 @@ devel_type(Type of development)
 devel_tools(New tools or existing)
 devel_prem(On prem or cloud)
 devel_audience(Who is the audience)
-devel_access(Is the solution accessed over \nthe internet or HSCN)
+devel_access(Is the solution accessed over the internet or HSCN)
 devel_workload(Workload assessment)
 devel_pp[[Return to P&P]]
 
@@ -66,5 +66,49 @@ style soft_exit fill:#c00,color:#fff
 style ex_normalchange fill:#c00,color:#fff
 style devel_pp fill:#c00,color:#fff
 
-
 ```
+
+# Introduction
+In the evaluation of new requests for digital solutions, be they commercial off the shelf software or an internally developed application or form of integration, it is from time to time necessary to consider a high-level technical architecture approach at the overall solution level. Such an approach can help ensure that the Trust continues to procure and build high quality, person centred digital services that align with the technology and governance objectives of both the Trust and the wider integrated care system in Dorset.
+
+This flowchart and accompanying text attempts to set out at a high level how such a process might work, and is open for comment and discussion.
+
+# Process
+
+## New requests
+New requests shall be referred to the SDG by the separate **pipeline and proposed** meeting, to be classified as a request *for a new solution*, or to *change an existing solution*.
+
+## Requests for new solutions
+Requests for new solutions may encompass initial consideration of *requests for new software*, or *requests for internal development*.
+
+### New software
+
+#### Alignment with technology lifecycle
+The group must consider whether the requested solution impacts on the technology lifecycle of the Trust and potentially the wider ICS. For example - does the solution have dependencies on old versions of software, or other technologies that organisations are trying to deprecate. Alternatively, can a solution boost the adoption of a nascent technology? The [EASG architecture portfolio](https://nhsdorsetccg.sharepoint.com/sites/NHSDorsetEnterpriseArchitecture/SitePages/CollabHome.aspx) can provide further information on pertinent technologies and products.
+
+##### Lifecyle states
+
+| State | Description|
+|-------|------------|
+| Preferred | Technology in use, licensing/contract valid, functionality adequate or better, strategic choice |
+| Supported | Technology in use by exception, licensing/contract valid, functionality adequate, greater than 2 year from EOL |
+| Retire | Technology is planned for retirement, less than 2 year from EOL |
+| EOL | Technology is out of contract or vendor mainstream/extended support, deprecated |
+| Nascent | Technology is being piloted or phased into production |
+
+#### Alignment with DIMR
+Dorset HealthCare publishes a menu of [Digital Minimum Requirements](https://digitaldhc.github.io/digital-minimum-requirements), known as DIMR. An important step in the consideration of new solutions is the selection of pertinent DIMR menu items to either be included in a formal statement of requirements, or to be presented to suppliers as part of the Trust's due diligence processes.
+
+#### Publisher assurance
+Dorset HealthCare may ask vendors to demonstrate compliance with either [ISO27001](https://www.iso.org/isoiec-27001-information-security.html) or [Cyber Essentials Plus](https://www.ncsc.gov.uk/cyberessentials/overview), or to evidence their presence on certain public sector commercial frameworks. We may ask vendors to demonstrate further levels of compliance, depending on the circumstances.
+
+#### Alignment with IG and security assurance
+The Trust has existing assurance tracks for both information governance and IT security. While these will often be undertaken as part of the software evaluation process, it is important that assurance colleagues are involved with the activities of a SDG.
+
+#### Alignment with ICS standards, aims, objectives
+Dorset HealthCare is a fully engaged and enthusiastic member of the Dorset IM&T community, dedicated to working across organisational boundaries to deliver and run a coherent digital offer for the Dorset integrated care system. In the consideration of new solutions, we have adopted the stance that we will not make any recommendation that knowingly inhibits frictionless working across organisational boundaries between health and social care in Dorset, or introduces a significant new or duplicate technology without explicit agreement obtained through the governance channels of the ICS.
+
+### New internal development
+
+#### Type of development
+It is important to consider the user requirements which will help determine the type of development that will be required to deliver a solution. For example, does the solution require a database, a web front end, a background integration and so on.
