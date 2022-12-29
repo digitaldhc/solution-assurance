@@ -59,8 +59,8 @@ ex_lifecycle(Alignment with technology lifecycle)
 ex_sevenrs(7R assessment)
 
 %% Node formatting
-style newsolution fill:#00f
-style existingsolution fill:#00f
+style newsolution fill:#27a,color:#fff
+style existingsolution fill:#27a,color:#fff
 style request fill:#0f0,color:#000
 style soft_exit fill:#c00,color:#fff
 style ex_normalchange fill:#c00,color:#fff
