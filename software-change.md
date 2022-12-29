@@ -4,7 +4,7 @@
 
 flowchart LR;
 
-request --> saa --> valid
+request --> saa ---> valid
 
 saa --> not_a_request
 
@@ -34,8 +34,8 @@ end
 
 ato --> packaging
 
-assess_outcome --> denied
 assess_outcome --> resourcing --> fulfil
+assess_outcome --> denied
 
 emergency --> third_line --> packaging --> fulfil
 
