@@ -151,14 +151,19 @@ The group must consider whether changes to a solution impact on the technology l
 | Nascent | Technology is being piloted or phased into production |
 
 #### 7R assessment
-The 7R assessment is an industry standard decision tree used when considering the future of digital solutions. We should aim to consider the 7Rs whenever thinking about major changes to digital solutions.
-
-**Retire** - is the solution in question still required? Is its functionality duplicated elsewhere in a more sustainable manner, meaning that an option may exist to retire this solution?
+The [7R](https://digital.nhs.uk/services/cloud-centre-of-excellence/cloud-topic-areas/application-migration-and-modernisation) [assessment](https://archive.ph/yZzgW) is an industry standard decision tree used when considering the future of digital solutions. We should aim to consider the 7Rs whenever thinking about major changes to digital solutions.
 
 **Retain** - the do-nothing option, which will keep the solution substantially unaltered and in the same place.
 
-**Replace** - it may be that the overall technical debt within a solution is so great that the best option is to replace it with something else. There may also be significant benefits in replacing a bespoke solution with something that is industry standard.
+**Retire** - is the solution in question still required? Is its functionality duplicated elsewhere in a more sustainable manner, meaning that an option may exist to retire this solution?
 
-**Relocate** (also known as **rehost**) - could a solution be relocated to the cloud by the simple performance of a "lift-'n'-shift" migration? It should be noted that while this can deliver short-term benefit, it is unlikely to be a substantive solution due to cost, and should be seen as the first step in an eventual refactoring of the solution to 
+**Re-purchase** (also known as **replace**) - it may be that the overall technical debt within a solution is so great that the best option is to replace it with something else. There may also be significant benefits in replacing a bespoke solution with something that is industry standard.
 
+**Relocate** or **rehost** - could a solution be relocated to the cloud by the simple performance of a "lift-'n'-shift" migration? It should be noted that while this can deliver short-term benefit, it does not take advantage of cloud capabilities and is unlikely to be a substantive solution due to cost. It should be seen as the first step in an eventual **refactoring** of the solution to a cloud-native state. **Relocation** involves deploying the same VMWare hypervisor in the cloud, while **rehosting** would mean using cloud infrastructure-as-a-service (*IaaS*) to create like-for-like virtual servers.
+
+**Re-platform** (also known as **lift-'n'-reshape**) - this will involve migrating a solution to the cloud and introducing some level of cloud optimisation, for example migrating an on-premise Microsoft SQL Server database to [Azure SQL](https://azure.microsoft.com/en-gb/products/azure-sql/database), or [Amazon RDS](https://aws.amazon.com/rds/).
+
+**Refactor** - this is the most complex of the seven Rs, and involves fundamentally re-architecting the solution to take advantage of cloud-native functionality, improving its agility, performance and scalability. Such a refactoring can change the nature of the solution from a monolithic architecture to a collection of coupled microservices that may be swapped out or scaled up or down as required.
+
+The diagram below shows a number of cloud adoption routes, and how the various options relate to each other. The [accompanying web page](https://www.devopsgroup.com/insights/resources/diagrams/all/cloud-migration-pathways/) also sets out a number of opportunities and shortcomings. The diagram is copyright (c) DevOpsGroup.
 ![Cloud migration strategies](cloud_migration.jpg)
