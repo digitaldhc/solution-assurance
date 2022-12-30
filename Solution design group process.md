@@ -112,3 +112,53 @@ Dorset HealthCare is a fully engaged and enthusiastic member of the Dorset IM&T 
 
 #### Type of development
 It is important to consider the user requirements which will help determine the type of development that will be required to deliver a solution. For example, does the solution require a database, a web front end, a background integration and so on.
+
+#### New tools or existing
+Is it likely that the solution will make use of existing tools, development environments and the like, or will it require new tools and skills? It is also necessary to consider the alignment of the tools with the technology lifecycle - does a solution require us to prolong the use of a tool we are otherwise looking to deprecate or retire, or provide us with an opportunity to boost adoption of a nascent technology?
+
+#### Who is the audience
+Is the solution to be used solely by employed Dorset HealthCare staff, or might it be used by its delivery partners, the wider health and social care community, or by the public? Does this affect the way the solution is built and delivered?
+
+#### Is the solution accessed over the internet or HSCN
+NHS Digital architecture principles state that [digital services should be available over the internet by default](https://digital.nhs.uk/developer/nhs-digital-architecture/principles/internet-first). In the evaluation of a new solution, we should consider how this might be delivered and, if we believe an exception exists and the new solution should be available solely from HSCN, the justifications for this. The intention for a solution to be used only internally should not on its own be justification for an exception.
+
+#### On prem or in the cloud
+The previous considerations about audience and access method all have the potential to influence whether the solution is provided on premise or in the cloud. While it is straightforward to develop on prem, each new web server and new database creates an additional [attack surface](http://web.archive.org/web/20221208054240/https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html) that must be managed and patched, and consumes finite on-premise resource. NHS Digital architecture principles state that [digital services should be hosted within the public cloud unless there is a clear reason not to do so](https://digital.nhs.uk/developer/nhs-digital-architecture/principles/public-cloud-first). When considering audience we should bear in mind that it is much easier to provision access to cloud-hosted resources from the internet than it is to provide access to on-premise resources. 
+
+## Requests for changes to existing solutions
+
+The first consideration in the evaluation of changes to existing solutions should be whether the group class the change to be minor or major.
+
+### Minor changes
+If a request for a change to an existing solution is judged to be minor, it is possibly not necessary for the SDG to consider the request in detail, simply allowing the request to proceed via the normal change control process. SDG members should however reserve the right to consider a minor request for change if it is expedient to do so.
+
+### Major changes
+Requests for major or large-scale change to existing digital solutions will ultimately require further consideration within the P&P process - SDG members should consider the best way in which to return a recommendation to the P&P group, bearing in mid that this may change depending on the nature of the request.
+
+Requests for major or large-scale change to existing digital solutions may provide significant opportunities for re-engineering, optimisation or re-provision that improve the technology posture of the organisation and even unlock additional clinical or business benefits.
+
+#### Alignment with technology lifecycle
+The group must consider whether changes to a solution impact on the technology lifecycle of the Trust and potentially the wider ICS. For example - does the solution prolong dependencies on old versions of software, or other technologies that organisations are trying to deprecate. Alternatively, can the re-engineering of a solution boost the adoption of a nascent technology? The [EASG architecture portfolio](https://nhsdorsetccg.sharepoint.com/sites/NHSDorsetEnterpriseArchitecture/SitePages/CollabHome.aspx) can provide further information on pertinent technologies and products.
+
+##### Lifecyle states
+
+| State | Description|
+|-------|------------|
+| Preferred | Technology in use, licensing/contract valid, functionality adequate or better, strategic choice |
+| Supported | Technology in use by exception, licensing/contract valid, functionality adequate, greater than 2 year from EOL |
+| Retire | Technology is planned for retirement, less than 2 year from EOL |
+| EOL | Technology is out of contract or vendor mainstream/extended support, deprecated |
+| Nascent | Technology is being piloted or phased into production |
+
+#### 7R assessment
+The 7R assessment is an industry standard decision tree used when considering the future of digital solutions. We should aim to consider the 7Rs whenever thinking about major changes to digital solutions.
+
+**Retire** - is the solution in question still required? Is its functionality duplicated elsewhere in a more sustainable manner, meaning that an option may exist to retire this solution?
+
+**Retain** - the do-nothing option, which will keep the solution substantially unaltered and in the same place.
+
+**Replace** - it may be that the overall technical debt within a solution is so great that the best option is to replace it with something else. There may also be significant benefits in replacing a bespoke solution with something that is industry standard.
+
+**Relocate** (also known as **rehost**) - could a solution be relocated to the cloud by the simple performance of a "lift-'n'-shift" migration? It should be noted that while this can deliver short-term benefit, it is unlikely to be a substantive solution due to cost, and should be seen as the first step in an eventual refactoring of the solution to 
+
+![Cloud migration strategies](cloud_migration.jpg)
