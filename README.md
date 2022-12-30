@@ -1,4 +1,4 @@
-# Solution design group
+# Solution assurance
 
 This repository sets out a number of adopted and unadopted standards documents relating to solution design and adoption. Please use the links above or below to view these documents.
 
