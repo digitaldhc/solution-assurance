@@ -166,4 +166,4 @@ The [7R](https://digital.nhs.uk/services/cloud-centre-of-excellence/cloud-topic-
 **Refactor** - this is the most complex of the seven Rs, and involves fundamentally re-architecting the solution to take advantage of cloud-native functionality, improving its agility, performance and scalability. Such a refactoring can change the nature of the solution from a monolithic architecture to a collection of coupled microservices that may be swapped out or scaled up or down as required.
 
 The diagram below shows a number of cloud adoption routes, and how the various options relate to each other. The [accompanying web page](https://www.devopsgroup.com/insights/resources/diagrams/all/cloud-migration-pathways/) also sets out a number of opportunities and shortcomings. The diagram is copyright (c) DevOpsGroup.
-![Cloud migration strategies](cloud_migration.jpg)
+![Cloud migration strategies](images/cloud_migration.jpg)
