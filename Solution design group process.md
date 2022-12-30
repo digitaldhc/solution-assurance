@@ -103,7 +103,7 @@ Dorset HealthCare publishes a menu of [Digital Minimum Requirements](https://dig
 Dorset HealthCare may ask vendors to demonstrate compliance with either [ISO27001](https://www.iso.org/isoiec-27001-information-security.html) or [Cyber Essentials Plus](https://www.ncsc.gov.uk/cyberessentials/overview), or to evidence their presence on certain public sector commercial frameworks. We may ask vendors to demonstrate further levels of compliance, depending on the circumstances.
 
 #### Alignment with IG and security assurance
-The Trust has existing assurance tracks for both information governance and IT security. While these will often be undertaken as part of the software evaluation process, it is important that assurance colleagues are involved with the activities of a SDG.
+The Trust has existing assurance tracks for both information governance and IT security. While these will often be undertaken as part of the [software change process](software-change.md), it is important that assurance colleagues are involved with the activities of a SDG.
 
 #### Alignment with ICS standards, aims, objectives
 Dorset HealthCare is a fully engaged and enthusiastic member of the Dorset IM&T community, dedicated to working across organisational boundaries to deliver and run a coherent digital offer for the Dorset integrated care system. In the consideration of new solutions, we have adopted the stance that we will not make any recommendation that knowingly inhibits frictionless working across organisational boundaries between health and social care in Dorset, or introduces a significant new or duplicate technology without explicit agreement obtained through the governance channels of the ICS.
