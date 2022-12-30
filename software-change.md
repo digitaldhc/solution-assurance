@@ -1,5 +1,7 @@
 # Software change process
 
+![Adoption flag](https://img.shields.io/badge/DHC%20adoption%20state-Adopted-red) ![Document flag](https://img.shields.io/badge/Document%20state-Finalised-green)
+
 ```mermaid
 
 flowchart LR;
