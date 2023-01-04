@@ -117,7 +117,7 @@ It is important to consider the user requirements which will help determine the 
 Is it likely that the solution will make use of existing tools, development environments and the like, or will it require new tools and skills? It is also necessary to consider the alignment of the tools with the technology lifecycle - does a solution require us to prolong the use of a tool we are otherwise looking to deprecate or retire, or provide us with an opportunity to boost adoption of a nascent technology?
 
 #### Who is the audience
-Is the solution to be used solely by employed Dorset HealthCare staff, or might, in addition, be used by its delivery partners, the wider health and social care community, or by the public? Does this affect the way the solution is built and delivered? Consider the differing needs of the range of audience.
+Is the solution to be used solely by employed Dorset HealthCare staff, or might, in addition, be used by its delivery partners, the wider health and social care community, or by the public? Does this affect the way the solution is built and delivered? Consider the differing needs of the range of audiences.
 
 #### Is the solution accessed over the internet or HSCN
 NHS Digital architecture principles state that [digital services should be available over the internet by default](https://digital.nhs.uk/developer/nhs-digital-architecture/principles/internet-first). In the evaluation of a new solution, we should consider how this might be delivered and, if we believe an exception exists and the new solution should be available solely from HSCN, the justifications for this. The intention for a solution to be used only internally should not on its own be justification for an exception.
