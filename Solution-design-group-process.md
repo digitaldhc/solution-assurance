@@ -5,8 +5,8 @@
 <!-- Initialise a top-down graph -->
 
 ```mermaid
-
-graph TD; %% initialise a top-down basic graphic
+%% initialise a top-down basic graphic
+graph TD 
 
 %% Top level structure
 request -- New solution --> newsolution
